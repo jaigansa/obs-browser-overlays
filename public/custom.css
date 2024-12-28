@@ -1,0 +1,23 @@
+@keyframes slide-topper {
+    0% {
+      transform: translateY(220px); /* Start off-screen to the right */
+    }
+    5% {
+      transform: translateY(0); /* Fully in view */
+    }
+    95% {
+      transform: translateY(0); /* Stay in view for 10 seconds */
+    }
+    100% {
+      transform: translateY(220px); /* Slide out again */
+    }
+  }
+  
+  .slidetop-animate {
+    animation: slide-topper 30s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    animation-play-state: running;
+  }
+  
+  :root {
+    background-color: rgba(0, 0, 0, 0); 
+  }
