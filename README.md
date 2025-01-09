@@ -12,6 +12,8 @@ PORT=3000
 
 # run 
 ```
+npm install
+
 node server.js
 ```
 

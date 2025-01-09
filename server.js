@@ -25,7 +25,6 @@ app.get('/get-channel-data', async (req, res) => {
     const channel = response.data.items[0];
 
     if (channel) {
-      console.log('Channel data:', channel);
       const channelData = {
         avatarUrl: channel.snippet.thumbnails.default.url,
         title: channel.snippet.title,

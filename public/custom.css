@@ -1,20 +1,27 @@
 @keyframes slide-topper {
     0% {
-      transform: translateY(220px); /* Start off-screen to the right */
+      transform: translateY(220px); 
     }
-    5% {
-      transform: translateY(0); /* Fully in view */
+    3% {
+      transform: translateY(0); 
     }
-    95% {
-      transform: translateY(0); /* Stay in view for 10 seconds */
+
+
+    50% {
+      transform: translateY(0);
     }
+
+    53% {
+      transform: translateY(220px);
+    }
+
     100% {
-      transform: translateY(220px); /* Slide out again */
+      transform: translateY(220px); /* Slide out */
     }
   }
   
   .slidetop-animate {
-    animation: slide-topper 30s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    animation: slide-topper 60s cubic-bezier(0.4, 0, 0.2, 1) infinite;
     animation-play-state: running;
   }
   
