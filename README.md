@@ -1,6 +1,6 @@
 # youtube_stats
 for obs overlay using browser source
-![screenshot](./Screenshot.png)
+![screenshot](./youtube-stats/Screenshot.png)
 
 # add apikey 
 create .env file 

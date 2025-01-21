@@ -1,0 +1,56 @@
+{
+    "game_info": [
+      {
+        "title": "BGMI",
+        "developer": "KRAFTON",
+        "version": "3.6.0",
+        "platform": "Mobile",
+        "release_date": "2025-01-01",
+        "status": "Active",
+        "description": "A fast-paced battle royale game where players compete for survival."
+      },
+      {
+        "title": "Space Invaders",
+        "developer": "ABC Studios",
+        "version": "2.0.0",
+        "platform": "PC, Console",
+        "release_date": "2025-06-01",
+        "status": "Coming Soon",
+        "description": "An intergalactic space shooter game where you defend the Earth from alien invaders."
+      },
+      {
+        "title": "Space ",
+        "developer": "ABC ",
+        "version": "2.0.0",
+        "platform": "PC, Console",
+        "release_date": "2025-06-01",
+        "status": "Coming Soon",
+        "description": "An intergalactic space shooter game where alien invaders."
+      }
+    ],
+    "player_info": [
+      {
+        "player_name": "JAIGANESHxS",
+        "player_level": 77,
+        "total_xp": 124500,
+        "current_mission": 1,
+        "avatar": "assets/img/avatar.webp",
+        "xp_progress": {
+          "current": 77,
+          "total": 100
+        }
+      },
+      {
+        "player_name": "PlayerTwo",
+        "player_level": 45,
+        "total_xp": 65000,
+        "current_mission": 3,
+        "avatar": "assets/img/avatar.webp",
+        "xp_progress": {
+          "current": 45,
+          "total": 100
+        }
+      }
+    ]
+  }
+  
