@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Manager</title>
+
+    <link rel="stylesheet" href="assets/css/output.css">
+</head>
+<body class="bg-gray-100 font-sans">
+<div class="container mx-auto p-6">
+    <h1 class="text-3xl font-bold text-center text-blue-600 mb-6">Mission Manager</h1>
+
+    <!-- Add Mission Form -->
+    <div class="mb-6 p-6 bg-white rounded-lg shadow-md">
+        <h2 class="text-xl font-semibold mb-4">Add or Update Mission</h2>
+        <form id="missionForm" class="space-y-4">
+            <input type="text" id="title" placeholder="Mission Title" class="block w-full px-4 py-2 border rounded-lg">
+            <input type="text" id="objective" placeholder="Objective" class="block w-full px-4 py-2 border rounded-lg">
+            <input type="text" id="rewards" placeholder="Rewards" class="block w-full px-4 py-2 border rounded-lg">
+            <input type="number" id="currentProgress" placeholder="Current Progress" class="block w-full px-4 py-2 border rounded-lg">
+            <input type="number" id="totalProgress" placeholder="Total Progress" class="block w-full px-4 py-2 border rounded-lg">
+            <input type="text" id="difficulty" placeholder="Difficulty (Easy, Medium, Hard)" class="block w-full px-4 py-2 border rounded-lg">
+            <textarea id="description" placeholder="Mission Description" class="block w-full px-4 py-2 border rounded-lg"></textarea>
+            <select id="status" class="block w-full px-4 py-2 border rounded-lg">
+                <option value="Incomplete">Incomplete</option>
+                <option value="Complete">Complete</option>
+            </select>
+            <button type="button" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700" onclick="addMission()">Add Mission</button>
+        </form>
+    </div>
+
+    <!-- Missions List -->
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-xl font-semibold mb-4">Current Missions</h2>
+        <ul id="missions" class="space-y-4"></ul>
+    </div>
+
+    <!-- Download Button -->
+    <div class="mt-6 text-center">
+        <button class="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-700" onclick="downloadMissions()">Download Missions</button>
+        <button class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700" onclick="loadLocalFile()">Load JSON</button>
+            <button class="px-6 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-700" onclick="saveToLocalFile()">Save JSON</button>
+        
+    </div>
+</div>
+<script src="assets/js/update.js" defer></script>
+</body>
+</html>
