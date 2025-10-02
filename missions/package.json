@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.4.16"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
-  }
-}
